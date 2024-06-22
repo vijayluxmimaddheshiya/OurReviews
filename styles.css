@@ -1,0 +1,50 @@
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Center align text within elements */
+    font-family: 'Bookman Old Style', serif; /* Set Bookman Old Style as the default font */
+    
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    margin-bottom: 80px; /* Space between title and review */
+}
+
+.review{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Center align text within the element */
+    border: 1px solid #000; /* Optional: to see the element boundaries */
+    padding: 20px; 
+}
+img-container {
+    border-radius: 10px; /* Rounds the corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+    transition: transform 0.3s ease; /* Adds a transition effect */
+}
+.next-btn{
+    font-size: 20px; /* Increase the icon size */
+    padding: 5px;
+}
+.prev-btn{
+    font-size: 20px;
+    padding: 5px;
+}
+
+.info{
+   
+    font-family: 'Bookman Old Style', serif; /* Set Bookman Old Style as the default font */
+}
